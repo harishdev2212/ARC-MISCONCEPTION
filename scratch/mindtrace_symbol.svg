@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none">
+  <defs>
+    <linearGradient id="mt-brand-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="55%" stop-color="#4F46E5" />
+      <stop offset="100%" stop-color="#7C3AED" />
+    </linearGradient>
+    <linearGradient id="mt-node-grad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#C084FC" />
+    </linearGradient>
+    <filter id="mt-subtle-glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#1E1B4B" flood-opacity="0.25" />
+    </filter>
+  </defs>
+  
+  <!-- Outer Rounded Shield -->
+  <rect width="48" height="48" rx="13" fill="url(#mt-brand-grad)" />
+  
+  <!-- Neural Brain "M" Flow Lines -->
+  <!-- Left Cerebral Lobe -->
+  <path d="M12 36V22C12 15.6 16.2 11.5 21.5 11.5C23 11.5 24 12.5 24 14V27C24 29 22.4 30.5 20.5 30.5C18.8 30.5 17.5 29.3 17.5 27.5V22" 
+        stroke="#FFFFFF" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round" />
+        
+  <!-- Right Cerebral Lobe -->
+  <path d="M36 36V22C36 15.6 31.8 11.5 26.5 11.5C25 11.5 24 12.5 24 14V27C24 29 25.6 30.5 27.5 30.5C29.2 30.5 30.5 29.3 30.5 27.5V22" 
+        stroke="#FFFFFF" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round" />
+        
+  <!-- Synaptic Cognitive Nodes -->
+  <circle cx="24" cy="13.5" r="2.2" fill="url(#mt-node-grad)" />
+  <circle cx="12" cy="36" r="2" fill="#FFFFFF" />
+  <circle cx="36" cy="36" r="2" fill="#FFFFFF" />
+  <circle cx="17.5" cy="22" r="1.6" fill="#38BDF8" />
+  <circle cx="30.5" cy="22" r="1.6" fill="#38BDF8" />
+  <circle cx="24" cy="27" r="1.6" fill="#A855F7" />
+</svg>
